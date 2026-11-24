@@ -1,0 +1,18 @@
+{
+  "release": "2026-10-21.0",
+  "source": "data/raw/place.parquet sources column",
+  "by_provider": {
+    "AllThePlaces": [
+      "CC0-1.0"
+    ],
+    "Foursquare": [
+      "Apache-2.0"
+    ],
+    "Overture": [
+      "CDLA-Permissive-2.0"
+    ],
+    "meta": [
+      "CDLA-Permissive-2.0"
+    ]
+  }
+}

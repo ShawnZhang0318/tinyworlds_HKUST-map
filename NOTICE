@@ -1,0 +1,21 @@
+tinyworlds_HKUST
+Copyright (c) 2026 ShawnZhang0318 and contributors.
+
+Based on tinyworlds by Nihey Takizawa.
+Copyright (c) 2026 Nihey Takizawa.
+https://github.com/nihey/tinyworlds
+Pinned upstream commit: 0d48a72688875b9642dca48ea63405f0704e40de
+The upstream MIT License is retained in vendor/tinyworlds-pipeline/LICENSE
+and LICENSES/tinyworlds-MIT.txt.
+
+Map data: (c) OpenStreetMap contributors, Overture Maps Foundation.
+Land cover includes ESA WorldCover / Copernicus data.
+The Places extract includes Meta, Overture, Foursquare and AllThePlaces data.
+See ATTRIBUTION.md, DATA_LICENSE.md and LICENSES/ for all applicable notices.
+
+The MIT software license does not relicense third-party geographic data.
+Project-specific raster-artwork contributions and descriptive text are
+CC BY 4.0; see MAPS_LICENSE.md. Underlying data rights remain applicable.
+
+Unofficial community project; not affiliated with HKUST or an official
+release of tinyworlds.

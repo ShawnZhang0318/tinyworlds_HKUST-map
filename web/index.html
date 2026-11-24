@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102c37">
+  <title>港科大 · 像素清水湾</title>
+  <link rel="stylesheet" href="map.css">
+</head>
+<body>
+  <main id="map-shell">
+    <canvas id="map" aria-label="港科大清水湾校园等距像素地图，可拖动和缩放" tabindex="0"></canvas>
+    <header><div class="mark" aria-hidden="true">H<span>K</span></div><div><div class="eyebrow">TINY CAMPUS / CLEAR WATER BAY</div><h1>港科大<span>像素清水湾</span></h1></div><span class="local">开源地图 · v0.1</span></header>
+    <aside id="sidebar">
+      <div class="section-head"><h2>去校园走走</h2><button id="collapse" class="text-button" aria-label="收起地点列表">收起</button></div>
+      <p class="intro">山、海，还有那些熟悉的楼。<br>选一个地点，放大看看。</p>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" placeholder="搜索建筑或地点" aria-label="搜索校园地点" autocomplete="off"></label>
+      <div id="places" aria-live="polite"><p class="muted">正在载入校园…</p></div>
+      <div class="data-note"><span class="note-title">关于这张地图</span><p>建筑轮廓与道路来自公开地理数据；外观为程序化像素演绎。地面按平面展示，不用于校园导航。非校方官方项目。</p><details><summary>数据来源与制作说明</summary><p id="sources">基于 tinyworlds by Nihey Takizawa · MIT<br>© OpenStreetMap contributors · Overture Maps Foundation</p><p>建筑高度优先采用数据中的高度或楼层；缺失部分由生成器估算。树木含程序化布置，未逐棵实测。土地覆盖含 ESA WorldCover / Copernicus 数据。</p><a href="https://github.com/nihey/tinyworlds" target="_blank" rel="noreferrer">tinyworlds 源码</a> · <a href="https://github.com/ShawnZhang0318/tinyworlds_HKUST/blob/main/ATTRIBUTION.md" target="_blank" rel="noreferrer">完整署名与许可</a></details></div>
+    </aside>
+    <button id="expand" class="pill" hidden>校园地点</button>
+    <nav class="controls" aria-label="地图控制">
+      <div class="view-switch"><button id="north" class="active">北向</button><button id="grid">等距</button></div>
+      <div class="zoom-stack"><button id="plus" aria-label="放大">＋</button><button id="minus" aria-label="缩小">−</button><button id="fit" aria-label="查看校园全景">⌂</button></div>
+      <button id="labels" class="pill" aria-pressed="true">地点标记</button>
+      <a id="download" class="pill" href="hkust-campus.png" download>下载地图 PNG</a>
+    </nav>
+    <div class="compass" aria-label="北方指示"><span>N</span><i></i></div>
+    <section id="selection" hidden><button id="close-selection" aria-label="关闭地点信息">×</button><div class="eyebrow">CAMPUS LOCATION</div><h2 id="selection-title"></h2><p id="selection-context"></p><a id="osm-link" target="_blank" rel="noreferrer">在 OpenStreetMap 查看</a></section>
+    <footer><span id="status" role="status">正在绘制清水湾…</span><span class="credits"><a href="https://github.com/nihey/tinyworlds" target="_blank" rel="noreferrer">基于 tinyworlds</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">© OpenStreetMap contributors</a> · <a href="https://overturemaps.org" target="_blank" rel="noreferrer">Overture Maps Foundation</a></span><span class="help">拖动平移 · 滚轮缩放 · 双击放大</span><div class="scale"><i></i><span id="scale-label">100 m</span></div></footer>
+    <div id="error" hidden role="alert"></div>
+  </main>
+  <script type="module" src="map.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+{
+  "release": "2026-10-21.0",
+  "bbox": [
+    114.2525,
+    22.328,
+    114.274,
+    22.3435
+  ],
+  "layers": {
+    "building": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=buildings/type=building/part-00377-7a68e55e-d7b0-5b63-b213-4f79883b2211-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/buildings/building/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "building_part": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=buildings/type=building_part/part-00000-bd282a3b-17f8-59d2-be35-2c8995e1f976-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/buildings/building_part/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "land": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land/part-00011-fa228c40-7581-512f-b3a0-fb114f2fa3b9-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land/part-00036-0583efc7-7d83-571e-b3e5-f9d2fcf624d3-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/base/land/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "water": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=water/part-00027-ae01f3fc-9546-580d-8cd4-3451d8289240-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/base/water/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "land_use": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land_use/part-00005-4b348911-5003-5832-bf07-565da304d853-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land_use/part-00008-542e33fe-998c-5dee-851c-3e25303b9b03-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land_use/part-00027-68450557-5887-5c9a-b07a-6c527441894d-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/base/land_use/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "land_cover": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land_cover/part-00085-ecbe3a62-8534-50d0-aa70-e176514515d6-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land_cover/part-00087-1d835dd0-e0f3-5bad-b2d4-7a9599985b62-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=land_cover/part-00092-a84c4309-92dc-510c-bb72-1fbe9690a112-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/base/land_cover/collection.json",
+      "license": "CC-BY-4.0"
+    },
+    "infrastructure": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=infrastructure/part-00010-9ab89881-a2ff-52f7-b415-6021da1b3a0b-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=base/type=infrastructure/part-00011-60ec7784-e70a-511e-abf0-200f198d900b-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/base/infrastructure/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "segment": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=transportation/type=segment/part-00111-0bf28189-3e7a-5965-8a3b-c1992c2dd907-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/transportation/segment/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "place": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00015-eb1c1331-f519-5db6-8fef-74a77e5776ff-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/places/place/collection.json",
+      "license": "other"
+    },
+    "division": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=divisions/type=division/part-00000-fc5242dc-0596-5fd7-b815-8ff9633b67f3-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/divisions/division/collection.json",
+      "license": "ODbL-1.0"
+    },
+    "division_area": {
+      "urls": [
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=divisions/type=division_area/part-00001-749d4f52-020c-56d1-a7b6-b52cc598af16-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=divisions/type=division_area/part-00002-78492e75-1dd3-5fab-a54d-395730d5c814-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=divisions/type=division_area/part-00006-40e7b5b5-ea5a-50b5-92fa-af0ec90581dd-c000.zstd.parquet",
+        "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=divisions/type=division_area/part-00007-d6e7a745-606f-5e85-9ffb-393dbdae0728-c000.zstd.parquet"
+      ],
+      "catalog": "https://stac.overturemaps.org/2026-10-21.0/divisions/division_area/collection.json",
+      "license": "ODbL-1.0"
+    }
+  }
+}

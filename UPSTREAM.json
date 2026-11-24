@@ -1,0 +1,25 @@
+{
+  "name": "tinyworlds_HKUST",
+  "version": "0.1.0",
+  "generated_at": "2026-11-25",
+  "upstream": {
+    "name": "tinyworlds",
+    "author": "Nihey Takizawa",
+    "repository": "https://github.com/nihey/tinyworlds",
+    "commit": "0d48a72688875b9642dca48ea63405f0704e40de",
+    "license": "MIT"
+  },
+  "data_release": "2026-10-21.0",
+  "scope": "HKUST Clear Water Bay campus and immediate surroundings",
+  "source_files": [
+    "data/sources.json",
+    "data/raw/"
+  ],
+  "modifications": [
+    "HKUST city definition and campus boundary",
+    "STAC spatial-partition selector and downloader",
+    "Mapped campus landmarks and schematic Red Bird",
+    "Standalone Chinese map viewer",
+    "Portable generation and preview scripts"
+  ]
+}

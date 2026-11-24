@@ -1,0 +1,53 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "building.parquet": {
+      "bytes": 109267,
+      "sha256": "6405817f7573c44ffe61c67fb36cea6714845bb36afbbe7ff062f216f5bbf30e"
+    },
+    "building_part.parquet": {
+      "bytes": 940,
+      "sha256": "41a51e93bb6f86a7780f04db672d01fcf8b6359deee549c7434b5a38cd1b764b"
+    },
+    "campus-boundary.geojson": {
+      "bytes": 3921,
+      "sha256": "005884e3b8709230fea3d1f56f9d272a9e137f96d2797d2d974160a452057387"
+    },
+    "division.parquet": {
+      "bytes": 8239,
+      "sha256": "78e52d1548cd74d610b538d547b493ecb910f10b7948f984b9e51965b60b618f"
+    },
+    "division_area.parquet": {
+      "bytes": 7738742,
+      "sha256": "6b7120e7a70c4793f9cea1ae6f8c3a9748643c00bd66693ca968f895e81915a5"
+    },
+    "infrastructure.parquet": {
+      "bytes": 33604,
+      "sha256": "a9d3836845a1b6eb490c6d428ffc7b17478a3dfd1f96baf16c8e0b808385238f"
+    },
+    "land.parquet": {
+      "bytes": 553886,
+      "sha256": "cb8f0c97ed4979253bdf0e4b3b744b0cfeec27e3fa6c3808369804a2f55e3c95"
+    },
+    "land_cover.parquet": {
+      "bytes": 359521,
+      "sha256": "8dffd16f3d847665a654e6b9b4338248e07e6a66b016cc2e584f9922c0323abc"
+    },
+    "land_use.parquet": {
+      "bytes": 215286,
+      "sha256": "ce95666968caaefc9fe5086713ba06aa9e865525ea6d6ccd737324e221440ada"
+    },
+    "place.parquet": {
+      "bytes": 25948,
+      "sha256": "b896306f0e06286183dc926017fe0cf6a3b2c47026b64f50f570eb9fc5574d23"
+    },
+    "segment.parquet": {
+      "bytes": 137904,
+      "sha256": "fb947f92abf46298ef18416f9c561a3556f8c7f9c2f36a8b98298ff6385b7dd8"
+    },
+    "water.parquet": {
+      "bytes": 2332087,
+      "sha256": "b3198c81bbfd9f80327d9841a580349b340850d6e8ed4df053c9150be096e5db"
+    }
+  }
+}
