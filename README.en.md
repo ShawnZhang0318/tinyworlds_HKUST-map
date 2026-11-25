@@ -13,8 +13,8 @@ This independent community project turns open geographic data into a browsable c
 Use Node.js 24 (minimum 22.12). No npm dependencies are needed to serve the bundled viewer.
 
 ```sh
-git clone https://github.com/ShawnZhang0318/tinyworlds_HKUST.git
-cd tinyworlds_HKUST
+git clone https://github.com/ShawnZhang0318/tinyworlds_HKUST-map.git
+cd tinyworlds_HKUST-map
 npm run dev
 ```
 

@@ -1,6 +1,6 @@
 # tinyworlds_HKUST · 港科大像素地图
 
-[![Checks](https://github.com/ShawnZhang0318/tinyworlds_HKUST/actions/workflows/check.yml/badge.svg)](https://github.com/ShawnZhang0318/tinyworlds_HKUST/actions/workflows/check.yml)
+[![Checks](https://github.com/ShawnZhang0318/tinyworlds_HKUST-map/actions/workflows/check.yml/badge.svg)](https://github.com/ShawnZhang0318/tinyworlds_HKUST-map/actions/workflows/check.yml)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Map artwork: CC BY 4.0](https://img.shields.io/badge/map_artwork-CC_BY_4.0-teal.svg)](MAPS_LICENSE.md)
 
@@ -29,8 +29,8 @@
 需要 **Node.js 24**（本项目验证环境；最低版本为 22.12）。查看已生成的地图不需要安装 npm 依赖。
 
 ```sh
-git clone https://github.com/ShawnZhang0318/tinyworlds_HKUST.git
-cd tinyworlds_HKUST
+git clone https://github.com/ShawnZhang0318/tinyworlds_HKUST-map.git
+cd tinyworlds_HKUST-map
 npm run dev
 ```
 
@@ -152,4 +152,4 @@ npm run pipeline:build
 
 完整第三方署名见 **[ATTRIBUTION.md](ATTRIBUTION.md)**，协议全文和 Foursquare NOTICE 均在 **[LICENSES/](LICENSES/)**。如果分发地图或进行二次开发，请随附相应的署名、协议及修改说明。
 
-欢迎提交 [Issue](https://github.com/ShawnZhang0318/tinyworlds_HKUST/issues) 或 Pull Request；贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎提交 [Issue](https://github.com/ShawnZhang0318/tinyworlds_HKUST-map/issues) 或 Pull Request；贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。

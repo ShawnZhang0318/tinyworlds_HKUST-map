@@ -5,7 +5,7 @@
   "type": "module",
   "description": "An open-source isometric pixel-art map of HKUST Clear Water Bay, based on tinyworlds by Nihey Takizawa.",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/ShawnZhang0318/tinyworlds_HKUST.git" },
+  "repository": { "type": "git", "url": "https://github.com/ShawnZhang0318/tinyworlds_HKUST-map.git" },
   "engines": { "node": ">=22.12" },
   "scripts": {
     "dev": "node scripts/serve.mjs",
